@@ -1,8 +1,9 @@
 ### Explosive Trap activation range research and its inconsistency on creatures with large combat reach
+https://discord.gg/fZEEfHqUHn
 
 While researching Explosive Trap activation ranges for [my backport](https://poli93.github.io/wotlk/) of wowsims I encountered a few discrepancies that I'd like to share with the community, as I believe private server players will find this interesting.
 
-Based on game data, I expect both Lord Marrowgar and Sindragosa to have the biggest ranges for traps amongst the bosses in ICC. After presenting this data to players, I discovered there is also something else going on that **sometimes **prevents this behaviour. 
+Based on game data, I expect both Lord Marrowgar and Sindragosa to have the biggest ranges for traps amongst the bosses in ICC. After presenting this data to players, we discovered there is also something else going on that **sometimes **prevents this behaviour. 
 
 ```
     unit 36612 Lord Marrowgar                    combat reach 20.2500  bounding radius 4.5000  scale 1.000
@@ -62,4 +63,6 @@ It adds a radar window that shows the map around you.
 The grid square borders are drawn as orange lines, with each square’s number and your distance to the nearest border.
 
 <img width="167" height="221" alt="image" src="https://github.com/user-attachments/assets/eaeefb32-72cd-4f1c-8928-00da9f42bc4f" />
+
+
 
