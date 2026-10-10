@@ -22,7 +22,6 @@ Based on game data, I expect both Lord Marrowgar and Sindragosa to have the bigg
 ```
 
 After further research, it appears units are filed into squared map grids. Objects (trap in this case) only check units whose centre is in a grid square near the trap, only then does it run a second check. The AoE range check: `TargetCombatReach + AttackRadius + IfSourceIsRunning`, per [Blizzard's formula](https://www.bluetracker.gg/wow/topic/us-en/13087818929-warlords-of-draenor-theorycraft-discussion/#503)
-(On Warmane the IfSourceIsRunning bonus for AoE also appears to be 8/3 instead of the expected 2)
 The IfSourceIsRunning check can never return true for hunter traps, as the check is done by the trap object itself. When the trap fires, a dummy NPC ([World Invisible Trigger](https://www.wowhead.com/wotlk/npc=12999/world-invisible-trigger)) is spawned on it to cast the effect.
 
 ```
