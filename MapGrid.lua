@@ -167,6 +167,9 @@ radar:SetScript("OnEvent", function(self, event, name)
         setCollapsed(MapGridDB.collapsed and true or false)
         self:SetSize(MapGridDB.width, MapGridDB.height)
     end
+	if MapGridDB and MapGridDB.hidden then
+        self:Hide()
+    end
 end)
 
 local lines = newPool(function() return view:CreateTexture(nil, "ARTWORK") end)
@@ -282,4 +285,7 @@ WorldMapFrame:HookScript("OnHide", function() SetMapToCurrentZone() end)
 SLASH_MAPGRID1 = "/mapgrid"
 SlashCmdList.MAPGRID = function()
     if radar:IsShown() then radar:Hide() else radar:Show() end
+    MapGridDB = MapGridDB or {}
+    MapGridDB.hidden = not radar:IsShown()
 end
+
