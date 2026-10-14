@@ -1,6 +1,8 @@
 ### Hunter Traps activation range research and its inconsistency on creatures with large combat reach
 https://discord.gg/fZEEfHqUHn
 
+**Introduction**
+
 While researching Explosive Trap activation ranges for [my backport](https://poli93.github.io/wotlk/) of wowsims I encountered a few discrepancies that I'd like to share with the community, as I believe other private server players will find this interesting.
 
 Based on game data, I expect both Lord Marrowgar and Sindragosa to have the biggest ranges for traps amongst the bosses in ICC. After presenting this data to players, we discovered there is also something else going on that **sometimes** prevents this behaviour. 
