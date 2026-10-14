@@ -1,4 +1,4 @@
-### Explosive Trap activation range research and its inconsistency on creatures with large combat reach
+### Hunter Traps activation range research and its inconsistency on creatures with large combat reach
 https://discord.gg/fZEEfHqUHn
 
 While researching Explosive Trap activation ranges for [my backport](https://poli93.github.io/wotlk/) of wowsims I encountered a few discrepancies that I'd like to share with the community, as I believe other private server players will find this interesting.
